@@ -29,6 +29,15 @@ def main() -> None:
     print(count_consecutive_chars('abc'))
     print(count_consecutive_chars('aabbcc'))
     print(count_consecutive_chars('aaaabbbccd'))
+    # OUTPUT: 
+    # a1
+    # a2
+    # a1b1
+    # a1b2
+    # a1b2a1
+    # a1b1c1
+    # a2b2c2
+    # a4b3c2d1
 
 
 if __name__ == '__main__':
